@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for the light theme -->
+    <style name="Base.Theme.EcomViews" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here -->
+        <item name="colorPrimary">@android:color/holo_blue_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@android:color/holo_blue_light</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="colorTertiary">@android:color/white</item>
+        <item name="colorOnTertiary">@android:color/black</item>
+        <!-- Define more colors and customizations for the light theme -->
+    </style>
+    <!-- Final theme that will be used in your app -->
+    <style name="Theme.EcomViews" parent="Base.Theme.EcomViews" />
+</resources>
